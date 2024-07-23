@@ -7,38 +7,33 @@
     <style>
         body {
             margin: 0;
-            height: 100vh;
+            padding: 0;
             display: flex;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
+            height: 100vh;
             background-color: #f0f0f0;
         }
-
         .center-box {
             width: 200px;
             height: 200px;
             background-color: lightblue;
             border: 2px solid black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-        }
-
-        .center-box p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             color: purple;
-            margin: 0;
+            font-size: 16px;
         }
     </style>
 </head>
 <body>
-
     <div class="center-box">
-        <p>This is center.</p>
+        This is center.
     </div>
-
 </body>
 </html>
