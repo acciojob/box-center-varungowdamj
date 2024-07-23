@@ -7,11 +7,10 @@
     <style>
         body {
             margin: 0;
-            padding: 0;
+            height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 100vh;
             background-color: #f0f0f0;
         }
         .center-box {
@@ -19,21 +18,25 @@
             height: 200px;
             background-color: lightblue;
             border: 2px solid black;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .center-box p {
+            color: purple;
+            font-size: 16px;
+            margin: 0;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: purple;
-            font-size: 16px;
         }
     </style>
 </head>
 <body>
     <div class="center-box">
-        This is center.
+        <p>This is center.</p>
     </div>
 </body>
 </html>
